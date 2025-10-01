@@ -1,3 +1,9 @@
+.headerPlaceholder {
+  position: relative;
+  width: 100%;
+  height: 120px;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -6,6 +12,7 @@
   z-index: 1000;
   background: white;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  height: 120px;
 }
 
 .topBar {
@@ -88,7 +95,7 @@
   }
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0;
     height: 2px;

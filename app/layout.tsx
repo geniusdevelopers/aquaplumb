@@ -8,8 +8,7 @@ import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "AquaPlumb Innovations",
+  title: "AquaPlumb Innovations",
   description:
     "Professional solar installation, plumbing services, borehole drilling, and irrigation design & installation. Expert water and energy solutions in Kenya.",
   keywords:
@@ -29,9 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        {children}
         <Footer />
       </body>
     </html>
