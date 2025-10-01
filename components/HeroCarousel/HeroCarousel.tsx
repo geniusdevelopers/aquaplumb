@@ -83,7 +83,7 @@ const HeroCarousel = () => {
           el: ".swiper-pagination",
         }}
         autoplay={{
-          delay: 5000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         loop={true}
